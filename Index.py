@@ -131,7 +131,7 @@ def TaskExe():
         elif 'raat' in queery :
             webbrowser.open("https://www.youtube.com/watch?v=Dt5GMToSu5I")
         elif  'Code' in queery :
-            os.open("C:\\Users\\nikkh\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Visual Studio Code\\Visual Studio Code.exe")
+            os.open("")
         
         
         
@@ -174,10 +174,10 @@ def core():
         queery = takeCommand()
         
         if  'play ' in queery :
-            os.startfile('C:\\Users\\nikkh\\OneDrive\\Desktop\\Preadator\\Database\\MusicCommand\\MusicLib')
+            os.startfile('b')
             speak("here you go")
         elif 'something else' in queery:
-            os.startfile('C:\\Users\\nikkh\\OneDrive\\Desktop\\Preadator\\Database\\MusicCommand\\MusicLib')
+            os.startfile('')
             speak("here you  go  sir")
         
         elif 'no jarvis' in queery:
@@ -185,19 +185,19 @@ def core():
         
         elif 'cool' in queery:
             speak("Ok playing some cool song")
-            os.start('C:\\Users\\nikkh\\OneDrive\\Desktop\\Preadator\\Database\\MusicCommand\\MusicLib')
+            os.start('')
         
         elif 'romantic' in queery:
             speak("Ok sir playing romantic song")
-            os.startfile('C:\\Users\\nikkh\\OneDrive\\Desktop\\Preadator\\Database\\MusicCommand\\MusicLib')
+            os.startfile('')
         
         elif 'funny ' in queery: 
             speak("Ok playing Some funny song")
-            os.startfile('C:\\Users\\nikkh\\OneDrive\\Desktop\\Preadator\\Database\\MusicCommand\\MusicLib')
+            os.startfile('')
         
     
         elif 'last time' in queery:
-            os.startfile('C:\\Users\\nikkh\\OneDrive\\Desktop\\Preadator\\Database\\MusicCommand\\MusicLib')
+            os.startfile('b')
 
     except Exception as e:
         print(e)
