@@ -134,7 +134,7 @@ def pasword_config(pass_inp):
         speak("SYESTEM INBUILD SECURITY ONLINE PAYLOAD ACTIVATION CONFORMED")
         speak("PAYLOAD SECURITY CONFORMED")
         speak("INBUILD LOADS SET VALUES TO DECLINED-899")
-        os.startfile('C:\\Users\\nikkh\\OneDrive\\Desktop\\Preadator\\Pasword.mp3')
+        os.startfile('pasword.mp3')
         email_on_wrong()
 
 
