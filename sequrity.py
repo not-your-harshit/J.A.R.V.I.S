@@ -4,9 +4,6 @@ import datetime
 import os
 import pyttsx3
 import speech_recognition as sr
-Config_password = ("TeamJarvis890#$!")
-Config_email = ("9415447808")
-Config_email1 = ("2904")
 ERR = ['#39865 - EMAIL  DENIED ','#002312 - PAYLOAD FAIL' , '#081242 - USER NOT FOUND']
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
