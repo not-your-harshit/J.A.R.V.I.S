@@ -9,7 +9,6 @@ engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[11].id)
 engine.setProperty('rate', 190)
-path = ('C:\\Users\\nikkh\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Visual Studio Code')
 
 try :
  from NotiFierPro.Notify_me_on_command import On_ai_callback , on_pasword_wrong ,on_password_true,On_email_send
