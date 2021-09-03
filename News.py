@@ -45,7 +45,7 @@ def takeCommand():
 
 def speak_news():
  
-    url ="https://newsapi.org/v2/top-headlines?sources=google-news-in&apiKey=34d751617982446d8b2ebe6476724dbb"
+    url ="https://newsapi.org/v2/top-headlines?sources=google-news-in&apiKey="
     news = requests.get(url).text
     news_dict = json.loads(news)
     arts = news_dict['articles']
@@ -61,7 +61,7 @@ def speak_news():
 
 
 def getNewsUrl():
-    return 'https://newsapi.org/v2/top-headlines?sources=google-news-in&apiKey=34d751617982446d8b2ebe6476724dbb'
+    return 'https://newsapi.org/v2/top-headlines?sources=google-news-in&apiKey='
 
 
 
