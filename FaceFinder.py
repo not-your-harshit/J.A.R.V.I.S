@@ -1,7 +1,7 @@
 import cv2
 
  
-face_cascade = cv2.CascadeClassifier('C:\\Users\\nikkh\\AppData\\Local\\Programs\\Python\\Python36\\Lib\\site-packages\\cv2\\data\\haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 
  
